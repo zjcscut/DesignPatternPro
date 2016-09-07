@@ -16,7 +16,6 @@ public class ModenPostOffice {
 		letterProcess.writeContext(context);
 
 		letterProcess.fillEnvelope(address);
-
 		letterProcess.letterIntoEnvelope();
 
 		police.checkLetter(letterProcess);
