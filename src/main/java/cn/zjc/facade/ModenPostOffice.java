@@ -11,6 +11,7 @@ public class ModenPostOffice {
 
 	private Police police = new Police();
 
+
 	public void sendLetter(String context,String address){
 
 		letterProcess.writeContext(context);
